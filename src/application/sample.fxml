@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="712.0" style="-fx-background-color: #300030;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label fx:id="logoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="271.0" layoutY="33.0" prefHeight="88.0" prefWidth="89.0" textAlignment="JUSTIFY" textOverrun="CLIP">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../halloweenLogo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="305.0" layoutY="210.0" text="HLLWNG" textAlignment="JUSTIFY" textFill="#f80d0d" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Bauhaus 93" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionLabel" layoutX="271.0" layoutY="240.0" prefHeight="38.0" prefWidth="172.0" text="SAVE YOUR NIGTHMARES" textAlignment="CENTER" textFill="#e4763b" wrapText="true">
+         <font>
+            <Font name="Microsoft YaHei UI Light" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

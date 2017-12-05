@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane fx:id="pane1" layoutX="60.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="515.0" fitWidth="915.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" opacity="0.69" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="515.0" fitWidth="915.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@4.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="562.0" layoutY="15.0" prefHeight="493.0" prefWidth="332.0" style="-fx-background-color: #60006099; -fx-background-radius: 50px;">
+         <effect>
+            <DropShadow color="#797979" />
+         </effect>
+         <children>
+            <Label layoutX="89.0" layoutY="14.0" prefHeight="113.0" prefWidth="171.0" textFill="#9e9e9e">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../halloweenLogo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <JFXTextField focusColor="#405aa800" labelFloat="true" layoutX="60.0" layoutY="176.0" maxWidth="213.0" minWidth="184.0" prefHeight="36.0" prefWidth="213.0" promptText="USERNAME" style="-fx-border-color: #FF8C00; -fx-border-radius: 50px;" unFocusColor="#0a89ff00">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#405aa800" labelFloat="true" layoutX="60.0" layoutY="247.0" maxWidth="213.0" minWidth="192.0" prefHeight="36.0" prefWidth="213.0" promptText="PASSWORD" style="-fx-border-color: #FF8C00; -fx-border-radius: 50PX;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXPasswordField>
+            <JFXButton layoutX="60.0" layoutY="312.0" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #FF8C00; -fx-background-radius: 50PX;" text="GET STARTED" textFill="WHITE" />
+            <JFXButton layoutX="60.0" layoutY="389.0" prefHeight="36.0" prefWidth="213.0" text="FORGOT YOUR PASSWORD ?" textFill="#d7ba19" underline="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
